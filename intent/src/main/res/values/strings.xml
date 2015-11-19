@@ -11,4 +11,6 @@
     <string name="btnDiv">나누기</string>
     <string name="btnCalc">계산하기</string>
 
+    <string name="btnResultText">결과보기</string>
+
 </resources>
