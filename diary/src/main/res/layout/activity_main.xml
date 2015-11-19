@@ -11,14 +11,16 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="4.5"
-        android:calendarViewShown="false" />
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"/>
     <EditText
         android:id="@+id/edtDiary"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="4.5"
         android:background="#00ff00"
-        android:lines="8" />
+        android:hint="@string/edtHint"
+        android:lines="8" />K
     <Button
         android:id="@+id/btnWrite"
         android:enabled="false"

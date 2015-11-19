@@ -1,1 +1,1 @@
-include ':app', ':dialog', ':diary'
+include ':app', ':dialog', ':diary', ':intent'

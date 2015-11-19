@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    FileOutputStream outFs = openFileOutput(fileName, Context.MODE_WORLD_WRITEABLE);
+                    FileOutputStream outFs = openFileOutput(fileName, Context.MODE_PRIVATE);
                     String str = edtDiary.getText().toString();
                     outFs.write(str.getBytes());
                     outFs.close();

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">intent</string>
+    <string name="CalcActivity">CalcActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="btnPlus">더하기</string>
+    <string name="btnMinus">빼기</string>
+    <string name="btnMul">곱하기</string>
+    <string name="btnDiv">나누기</string>
+    <string name="btnCalc">계산하기</string>
+
+</resources>
