@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             ImageView imgView = (ImageView)convertView.findViewById(R.id.imageView);
             TextView textView= (TextView)convertView.findViewById(R.id.textView);
 
-            convertView.setLayoutParams(new GridView.LayoutParams(200, 300));
+            convertView.setLayoutParams(new GridView.LayoutParams(250, 350));
             imgView.setImageResource(posterID[pos]);
             textView.setText(posterName[pos]);
             convertView.setOnClickListener(new View.OnClickListener() {
